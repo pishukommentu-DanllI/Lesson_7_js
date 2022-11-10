@@ -1,0 +1,55 @@
+#field {
+    width: 200px;
+    height: 150px;
+    border: 10px solid black;
+    background-color: #00FF00;
+    overflow: hidden;
+  }
+#ball {
+    transition: all 1s;
+}
+
+.task_2{
+    margin: 10px;
+    width: 470px;
+}
+.pane{
+    margin-bottom: 8px;
+}
+h3 {
+    margin: 0;
+    padding-bottom: .3em;
+    font-size: 1.1em; 
+    margin: 8px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0 0 .5em;
+  }
+  
+  .pane {
+    background: #edf5e1;
+    padding: 10px 20px 10px;
+    border-top: solid 2px #c4df9b;
+  }
+  
+  .remove-button {
+    font-size: 110%;
+    color: darkred;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+.pane__BlockMain{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
