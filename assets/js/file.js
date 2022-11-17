@@ -42,6 +42,6 @@ for (let elem of document.querySelectorAll('.pane__BlockMain')) {
 }
 
 document.querySelector('.task_2').addEventListener('click', function(event){
-        if (event.target.class == 'remove-button') {event.nodeElemnt.nodeElemnt.remove()}
+        if (event.target.classList.contains('remove-button')) {event.target.parentNode.parentNode.remove()}
     }
 )
